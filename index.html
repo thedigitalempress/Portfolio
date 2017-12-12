@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <!-- Coding Project | Portfolio
+        -A main section with an image/logo of your choosing (this can simply be a nice font if you like)
+        -A menu for other sections of the page. I'd like you to research how to get the menu to jump to 
+        different sections by staying on the same page.
+        -An about me section with an image and description about yourself, plus your skills.
+        -A portfolio section where you will put the sites that you've work on etc.
+        -A contact section with your details and a form (it won't submit at the moment though.)
+     -->
+     <header>
+         <h1 class="logo">Tailor's Portfolio</h1>
+
+         <nav>
+             <ul>
+                 <li>home</li>
+                 <a href="#aboutHeader"><li>about</li></a>
+                 <a href="#portfolio"><li>work</li></a>
+                 <a href="#contact"><li>contact</li></a>
+             </ul>
+         </nav>
+     </header>
+
+     <section class="main-section">
+         <div class="blurb">
+             <h3>the queen of constant creation</h3>
+         </div>
+
+         <h2 id="aboutHeader">About</h2>
+
+         <div class="aboutMe">
+             <img id="portfolio-image" src="img/crown.gif" alt="crown pic for portfolio">
+
+             <p id="profileBlurb">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, dignissimos facilis autem, cupiditate eaque alias minima
+                quod ab sapiente nulla itaque odio? Odio placeat sit tempore a laboriosam id sed. Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Voluptate, labore. Animi fugiat illo doloremque. Reiciendis animi quasi facere consectetur voluptatum vitae nobis sed! Eius, 
+                iusto! Vero consequatur porro repellendus itaque?
+
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, dignissimos facilis autem, cupiditate eaque alias minima
+                quod ab sapiente nulla itaque odio? Odio placeat sit tempore a laboriosam id sed. Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Voluptate, labore. Animi fugiat illo doloremque. Reiciendis animi quasi facere consectetur voluptatum vitae nobis sed! Eius, 
+                iusto! Vero consequatur porro repellendus itaque?
+             </p>
+        </div>
+
+        <div id="portfolio" class="portfolioSection">
+            <h2>Portfolio</h2>
+
+            <div class="gallery">
+                <div id="stellar1">
+                    <img src="img/stellar1.png" alt="stellar pic1">
+                </div>
+                <img src="img/stellar2.png" alt="stellar pic2">
+                <img src="img/tame1.png" alt="tame1">
+                <img src="img/tame2.png" alt="tame2">
+                <img src="img/empress.png" alt="empress">
+            </div>
+        </div>
+  
+
+        <div id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <form action="#">
+                <div class="formRow">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+
+                <div class="formRow">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+
+                <div class="formRow">
+                     <label for="msg">Message:</label>
+                    <textarea type="user_message" id="msg"></textarea>
+                </div>
+
+                <div>
+                    <input id="submit-button" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Tailor's Portfolio. All Rights Reserved.</p>
+    </footer>
+
+
+    
+</body>
+</html>
